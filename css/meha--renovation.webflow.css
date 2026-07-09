@@ -16425,3 +16425,17 @@ blockquote {
 }
 
 
+
+/* Projects section: cap the row at three cards on laptop and desktop,
+   extra cards wrap onto a second row */
+@media screen and (min-width: 992px) {
+  .home-two-projects .service-one-design-flex {
+    flex-flow: row wrap !important;
+    grid-row-gap: 30px;
+  }
+
+  .home-two-projects .service-one-design-flex .service-one-feature-card {
+    width: calc(33.333% - 20px) !important;
+    flex: 0 0 auto !important;
+  }
+}
