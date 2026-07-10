@@ -16426,8 +16426,8 @@ blockquote {
 
 
 
-/* Projects section: cap the row at three cards on laptop and desktop,
-   extra cards wrap onto a second row */
+/* Projects section: four equal cards per row on laptop and desktop,
+   extras wrap onto the next row */
 @media screen and (min-width: 992px) {
   .home-two-projects .service-one-design-flex {
     flex-flow: row wrap !important;
@@ -16435,7 +16435,7 @@ blockquote {
   }
 
   .home-two-projects .service-one-design-flex .service-one-feature-card {
-    width: calc(33.333% - 20px) !important;
+    width: calc(25% - 22.5px) !important;
     flex: 0 0 auto !important;
   }
 }
